@@ -1,0 +1,7 @@
+You wanted to have a linux filesystem like layout with a root with children with each having children
+
+I think the best way to have this be is have a data class that has a prompt str, a response str,
+	and a list of child object that are the same class.
+
+This format will at least let all the models do their work, but reconstructing it back into a whole project
+	becomes the challenge after that. Thankfully, using the classes will make it simple in theory to put it all together.
