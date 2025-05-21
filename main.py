@@ -2,7 +2,7 @@
 
 # These are imported modules. They add functionality beyond what vanilla python can do
 
-import ollama # This module helps simplify ollama api access
+from ollama import chat,ChatResponse # This module helps simplify ollama api access
 
 # This basically asks the chatbot "prompt" and prints it out. This is just placeholder, but it should work
 response: ChatResponse = chat(
@@ -10,7 +10,7 @@ response: ChatResponse = chat(
     messages=[
         {
             "role": "user",
-            "content": "prompt",
+            "content": "How do i do a html comment",
         },
     ],
 )
