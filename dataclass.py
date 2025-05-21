@@ -5,7 +5,7 @@ class Data:
         self.children = children if children is not None else []
 
     def __str__(self):
-        "class stores prompt, res, children"
+        return "class stores prompt, res, children"
 
     def toDict(self):
         """
